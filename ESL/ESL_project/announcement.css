@@ -1,0 +1,51 @@
+.form{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fdf8df; 
+    border: #fcf066 solid 2px;
+}
+.input::placeholder{
+    color: #8d887b;
+}
+.list{
+    padding: 0;
+    margin: 0;
+}
+.list p{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: dotted #8d887b;
+    position: relative;
+}
+.list p .bi {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .crn{
+        margin-bottom: 20px;
+    }
+    .profile-bottom{
+        bottom: auto;
+        background-color: #f9f6f1;
+        width: 100%;
+        position: relative;
+    }
+}
+/*Links*/
+#announcement-id {
+    display:none;
+}
+#assignment-id {
+    display:none;
+}
+#quiz-id {
+    display:none;
+}

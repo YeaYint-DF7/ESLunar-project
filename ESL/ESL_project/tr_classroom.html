@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS and Java-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="announcement.css">
+    <link rel="stylesheet" href="classroom.css">
+    <link rel="icon" href="image/Wit icon.png">
+    <title>Classroom | WIT</title>
+    <style>
+        .card-header{
+            background-color: #6652D9;
+            color: #f9fbf5;
+        }
+        .card-title{
+            font-size: 20px;
+        }
+        .card-bodys{
+            background-color: #fcfcfb;
+        }
+        .card-footer{
+            background-color: #c3b2f8;
+        }
+        .cards{
+            border: #6652D9 solid 1px;
+        }
+    </style>
+</head>
+<body>
+<div class="classroom">       
+    
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="bi bi-list"></i>
+    </label>   
+
+    <div class="mb-auto pt-4 px-4 side-list">
+        <div class="">
+            <a href="index.html" class=" align-items-center text-decoration-none text" target="_blank"><h2>WIT</h2></a>
+        </div>
+        <hr>
+        <div class="mb-3 page-p">
+            <a id="link-4" href="tr_home.html" title="Home" class="text-size"><i class="bi bi-house-door-fill me-3" onclick="My_home()"></i>Home</a>
+        </div>
+        <div class="menu-content mb-3 page-p">
+            <span class="menu-heading fw-bold text-uppercase" style="font-size: 12px;">Classroom</span>
+        </div>
+        <div class="mb-3 page-p">
+            <a id= "link-1" href="#" title="Home" class="text-size " onclick="My_announcement()"><i class="bi bi-megaphone-fill me-3"></i>Announcement</a>
+        </div>
+        <div class="mb-3 page-p">
+            <a id="link-2" href="#" title="Mail" class="text-size "  onclick="My_assignment()"><i class="bi bi-backpack4-fill me-3"></i>Assignment</a>
+        </div>
+        <div class="mb-3 page-p">
+            <a id="link-3" href="#" title="Home" class="text-size " onclick="My_quiz()"><i class="bi bi-lightbulb-fill me-3"></i>Quiz</a>
+        </div>
+        <div>
+            <button class="btn" data-bs-toggle="modal" href="#my-modal" style="background-color: #edebd6; font-weight: bolder; width: 100%;">+</button>
+        </div>
+        
+        <div class="dropdown pb-3 profile-bottom">
+            <hr>
+            <div href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle " data-bs-toggle="dropdown">
+                <img src="image/aisha relish.png" alt="" width="35" height="35" class="rounded-circle me-3">
+                <div class="d-block">
+                    <strong class="me-2">Mrs. Aisha Relish</strong>
+                    <br>
+                    <span style="font-size: 14px; color: #948e82;">Teacher</span>
+                </div>
+            </div>
+            
+            <ul class="dropdown-menu text-small shadow dd-menu">
+                <button type="button" data-bs-toggle="modal" href="#profile" class="buttonm"><li class="drop-transition"><a class="dropdown-item"><i class="bi bi-person-fill me-3"></i>Profile</a></li></button>
+
+                <li class="drop-transition"><a class="dropdown-item" href="trstools.html"><i class="bi bi-tools me-3"></i>Teacher's tool</a></li>
+                <li class="drop-transition"><hr class="dropdown-divider"></li>
+                <li class="drop-transition"><a class="dropdown-item" href="tr_login.html"><i class="bi bi-box-arrow-in-right me-3"></i>Sign out</a></li>
+            </ul>
+            
+        </div>
+        
+    </div>       
+        
+    <div class="class-info px-5 pb-5" style="margin-top: 70px;">
+        <div class="row">
+            <div class="col-lg-12 mb-2">
+                <span>Classroom - <a href="tr_announcement.html">Announcement</a></span>
+            </div>
+            <div class="col-lg-8 crn">
+                <div class="card classroom-name p-3">
+                    <div class="card-body">
+                        <h1>Website design and development with Aisha</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card p-3" style="border: #e07255 solid 2px; background-color: #fceff2; color: #e07255;">
+                            <span>Code:</span>
+                            <h2 style="font-size: 50px; text-align: center;">123 456 789</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4">
+                        <div class="card p-3 members" style="border: #bed855 solid 2px; background-color: #f6fbdf; color: #bed855;">
+                            <h4>Admin</h4>
+                            <span style="color: #afc84a;">1</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4">
+                        <div class="card p-3 members" style="border: #71c5d5 solid 2px; background-color: #f3f9fe; color: #71c5d5;">
+                            <h4>Student</h4>
+                            <span>16</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px #39332c solid;">
+            <!--announcement-->
+        <div class="row" id="announcement-id">
+            <div class="col-md-12">
+                    <form class="form">          
+                    <input type="text" class="input form-control mb-2" placeholder="New Announcement" autocomplete="off"/>
+                    <div class="list"></div>
+                </form>
+            </div>
+        </div>
+        <!--assignment-->
+        <div class="row" id="assignment-id">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card cards mt-3">
+                            <div class="card-header">
+                                <span class="card-title">Web Assignment I: Make A Responsive Website Of Any Topic</span>
+    
+                            </div>
+                            <div class="card-body card-bodys">
+                                <span class="card-text">Tr Aisha Relish - Please answer before due. If confused you shall ask me/watch recording from october 25th</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card cards mt-3">
+                            <div class="card-header">
+                                <span class="card-title">Web Assignment II: Timer</span>
+                            </div>
+                            <div class="card-body card-bodys">
+                                <span class="card-text">Tr Aisha Relish - Please review the unit and answer before due. If confused you shall ask me.</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card cards mt-3">
+                            <div class="card-header">
+                                <span class="card-title">Web Assignment III: Develope A Website Like The Picture Shown</span>
+                                
+                            </div>
+                            <div class="card-body card-bodys">
+                                <span class="card-text">Tr Aisha Relish - Please review the unit and answer before due. If confused you shall ask me.</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="card-link">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn" data-bs-toggle="modal" href="#my-assignment" id="button" style="width: fit-content;">New assignment</button>
+                </div>
+            </div>
+        </div>
+        <!--quiz-->
+        <div class="row" id="quiz-id">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card cards mt-3">
+                            <div class="card-header">
+                                <span class="card-title">HTML 6.2</span>
+    
+                            </div>
+                            <div class="card-body card-bodys">
+                                <h6 class="card-subtitle mb-2 text-muted"> Due date - November 7th</h6>
+                                <span class="card-text">Tr Aisha Relish - Please answer before due. If confused you shall ask me/watch recording from october 25th</span>
+                                
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://quizizz.com/admin/quiz/59e58138b29e4f1100a3ca33/html-quiz" class="card-link">Open link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card cards mt-3">
+                            <div class="card-header">
+                                <span class="card-title">HTML Quiz</span>
+                                
+                            </div>
+                            <div class="card-body card-bodys">
+                                <h6 class="card-subtitle mb-2 text-muted">Due date - November 14th</h6>
+                                <span class="card-text">Tr Aisha Relish - Please review the unit and answer before due. If confused you shall ask me.</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://quizizz.com/admin/quiz/5babd165709913001a0be014/html" class="card-link">Open link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn" data-bs-toggle="modal" href="#my-quiz" id="button">New Quiz</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>  
+<!--Modal-->
+<div class="modal" id="my-modal" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-m">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <h3 class="modal-title">New channel</h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <label for="" class="mb-3">Title</label>
+                    <input type="text" class="form-control input-design">
+
+                    <label for="" class="my-3">Icon</label>
+                    <input type="text" class="form-control input-design">
+
+                    <button class="btn mt-4" style="background-color: #c3b2f8; color: #6d4ed2 ; font-weight: bold; width: 100%;">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>  
+<!--Quiz Modal-->
+<div class="modal" id="my-quiz" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-m">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <h3 class="modal-title">New Quiz</h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <label for="" class="mb-3">Title</label>
+                    <input type="text" class="form-control input-design">
+
+                    <label for="" class="my-3">Note</label>
+                    <input type="text" class="form-control input-design">
+
+                    <label for="" class="my-3">Add Link</label>
+                    <input type="text" class="form-control input-design">
+
+                    <button class="btn mt-4" style="background-color: #c3b2f8; color: #6d4ed2 ; font-weight: bold; width: 100%; ;">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--assingment Modal-->
+<div class="modal" id="my-assignment" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-m">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <h3 class="modal-title">New Assignment</h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <label for="" class="mb-3">Title</label>
+                    <input type="text" class="form-control input-design">
+
+                    <label for="" class="my-3">Note</label>
+                    <input type="text" class="form-control input-design">
+
+                    <label for="" class="my-3">Add Link</label>
+                    <input type="text" class="form-control input-design">
+
+                    <button class="btn mt-4" style="background-color: #c3b2f8; color: #6d4ed2 ; font-weight: bold; width: 100%; ;">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        
+</div>
+   <!--Modal-->
+<div class="modal" id="profile" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-m">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <button type="button" class="btn-close mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-between">
+                <div style="text-align: center;">
+                    <img src="image/aisha relish.png" alt="" width="100px" height="100px">
+                    <br>
+                    <span>Teacher</span>
+                </div>
+
+                <div style="text-align: end;">
+                    <div>Mrs. Aisha Relish</div>
+                    <span style="font-size: 14px; color: #948e82;">aisharelish123@gmail.com</span>
+                    
+                    <div class="mt-4">About me</div>
+                    <br>
+                    <textarea name="txtQuestions" cols="20" rows="2" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="announcement.js"></script>
+</body>
+</html>

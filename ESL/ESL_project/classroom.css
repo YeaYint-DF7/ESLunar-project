@@ -1,0 +1,268 @@
+ * {
+    box-sizing: border-box;
+ }
+ /*side bar*/
+ a{
+    text-decoration: none;
+    color: #525141;
+}
+.menu-heading{
+    color: #948e82;
+}
+.dd-menu{
+    border: solid #908b7f 1px;
+    background-color: white;
+    color: #908b7f;
+}
+.dd-menu a{
+    color: #908b7f;
+}
+.input-design{
+    background-color: #f8f6f2;
+    border: #f8f6f2 solid 1px;
+}
+.active-page{
+    background-color: #c3b2f8;
+    padding: 10px;
+    border-radius: 10px;
+    color: #6d4ed2;
+    display:inline-block;
+    width:170px;
+}
+.active-page a{
+    color: #6d4ed2;
+}
+.page-p a{
+    transition: all 0.3s;
+}
+.page-p a:hover{
+    color: #6d4ed2;
+    padding: 10px;
+}
+.drop-transition a:hover{
+    color: #c3b2f8;
+}
+::selection {
+    color: white;
+    background: #8c7ef7;
+}
+.classroom{
+    position:relative;
+    top:0;left:0;right:0;bottom:0;
+}
+.side-list{
+    height: 100vh;
+    position: absolute;
+    width: 17.3%;
+    background-color: #f9f6f1;
+    position: fixed;
+}
+.class-info {
+    position:absolute;
+    top: auto;
+    left: 17.3%;
+    width: 82.7%;
+}
+.checkbtn{
+    color: #201819;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    display: none;
+    background-color: #f9f6f1;
+    width: 100%;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .checkbtn{
+        display:block;
+        padding-left:20px;
+        float:left;
+    }
+    .side-list {
+        position:absolute;
+        top:auto;
+        left:-100%;
+        height:auto;
+        
+    }
+    .class-info {
+        position:absolute;
+        top:auto;
+        left:0;
+        width:100%;
+    }
+    
+    #check:checked ~ .side-list {
+        position:absolute;
+        top:50px;
+        left:0;
+        width:100%;
+        height:auto;
+        z-index: 100;
+        background-color: #f9f6f1;
+    }
+    #check:checked ~ .class-info {
+        left:0;
+        top:500px;
+        width:100%;
+    }
+}
+.profile-bottom{
+    position: absolute;
+    bottom: 0;
+}
+/*Right side*/
+.classroom-name{
+    background-color: #f7f6f2;
+    border: #e9e6df 1px solid;
+    border-radius: 20px;
+    color: #3f3d38;
+    height: 100%;
+}
+.members{
+    text-align: center;
+    align-self: center;
+}
+.announce-box{
+    background-color: #c3b2f8;
+    color: #6d4ed2;
+    border: none;
+    padding: 10px;
+}
+.attachment-plus{
+    display: none;
+} 
+.upload i{
+    color: #f7d150;
+    font-size: 27px;
+}
+/* quiz */
+.input-design{
+    background-color: #f8f6f2;
+    border: #f8f6f2 solid 1px;
+}
+.members{
+    text-align: center;
+    align-self: center;
+}
+#button {
+    background-color: #edebd6;
+    font-weight: bolder;
+    width: 150px;
+    border-radius: 20px; 
+    z-index: 100;
+    bottom: 55px;
+    right: 120px;
+    box-shadow: #52514157 3px 3px 3px;
+    color: #525141;
+    position: fixed;
+}
+.buttonm{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.b-hover{
+    transition: 0.3s all;
+}
+.b-hover:hover{
+    box-shadow:  #39332c 10px -10px;
+}
+/*Timer*/
+.stopwatch {
+    justify-content: space-around;
+}
+.stopwatch div {
+    width:100px;
+    height:80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #f7d150;
+    border-radius: 10px;
+}
+.stopwatch_text {
+    color:black;
+}
+/*Teacher's tool*/
+.border-bottoms{
+    border-bottom: #39332c 2px solid;    
+}
+.features-tab{
+    color: #39332c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 0.2s;
+}
+.features-tab:hover{  
+    color: #6d4ed2;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 30px;    
+    color: #6d4ed2;
+    background-color: #c3b2f8;
+}
+/*Calendar*/
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #fcfcfb;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: #39332c;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #8c7ef7;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: white;
+    text-align: center;
+}
+.days {
+    padding: 10px 0;
+    background: #c3b2f8;
+    margin: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #39332c;
+}
+.days li .active {
+    padding: 5px;
+    background: #6d4ed2;
+    color: white;
+}

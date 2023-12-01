@@ -1,0 +1,481 @@
+::selection {
+    color: white;
+    background: #8c7ef7;
+}
+a{
+    text-decoration: none;
+    color: #525141;
+}
+/*side bar
+.menu-heading{
+    color: #948e82;
+}
+.dd-menu{
+    border: solid #908b7f 1px;
+    background-color: white;
+    color: #908b7f;
+}
+.dd-menu a{
+    color: #908b7f;
+}
+.input-design{
+    background-color: #f8f6f2;
+    border: #f8f6f2 solid 1px;
+}
+.active-page{
+    background-color: #c3b2f8;
+    padding: 10px;
+    border-radius: 10px;
+}
+.active-page a{
+    color: #6d4ed2;
+}
+.page-p a{
+    transition: all 0.3s;
+}
+.page-p a:hover{
+    color: #c3b2f8;
+    padding: 10px;
+}
+.drop-transition a:hover{
+    color: #c3b2f8;
+}
+.classroom{
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.list{
+    height: 100vh;
+    position: absolute;
+    width: fit-content;
+    background-color: #f9f6f1;
+    position: fixed;
+}
+.class-info {
+    position:absolute;
+    top: auto;
+    left: 17.5%;
+    width: 82.5%;
+}
+.checkbtn{
+    color: #201819;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    display: none;
+    background-color: #f9f6f1;
+    width: 100%;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .checkbtn{
+        display:block;
+        padding-left:20px;
+        float:left;
+    }
+    .list {
+        position:absolute;
+        top:auto;
+        left:-100%;
+    }
+    .class-info {
+        position:absolute;
+        top:auto;
+        left:0;
+        width:100%;
+    }
+    #check:checked ~ .list {
+        position:absolute;
+        top:50px;
+        left:0;
+        width:100%;
+    }
+    #check:checked ~ .class-info {
+       display:none;
+    }
+}
+/*Right side
+.classroom-name{
+    background-color: #f7f6f2;
+    border: #e9e6df 1px solid;
+    border-radius: 20px;
+    color: #3f3d38;
+    height: 100%;
+}
+.members{
+    text-align: center;
+    align-self: center;
+}
+.announce-box{
+    background-color: #c3b2f8;
+    color: #6d4ed2;
+    border: none;
+    padding: 10px;
+}
+.attachment-plus{
+    display: none;
+}
+.upload i{
+    color: #f7d150;
+    font-size: 27px;
+}
+.uploading-announcement{
+    align-items: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 80%;
+}*/
+/*Home*/
+.nav-style ul li a{
+    color: #39332c;
+    font-weight: bold;
+    transition: 0.3s all;
+}
+.nav-style ul li a:hover{
+    color: #c3b2f8;
+}
+.mid-nav{
+    margin-left: 50px;
+}
+@media screen and (max-width: 768px) {
+    .mid-nav{
+        margin-left: 0;
+    }
+    .logsign{
+        margin-left: 10px;
+    }
+}
+.scroll-nav{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    justify-content: center;
+}
+.scroll-nav li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.scroll-nav li a span{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.custom-accordion-header{
+    font-family: bold;
+}
+.custom-accordion-body{
+    background-color: #fbf4d9;
+    color: #538aa6;
+}
+.custom-accordion-item{
+    border: none; 
+}
+.tick-card{
+    border: none;
+    border-radius: 20px;
+}
+.tool-list1{
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tool-list1 span{
+    text-decoration: none;
+    color: #39440f;
+}
+.tool-list2{
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tool-list2 span{
+    color: #8d887b;
+    text-decoration: none;
+}
+.tool-list2 i{
+    color: #71c5d5;
+}
+.curved-background__curved {
+    /* Background color */
+    background-color: #6652D9;
+
+    /* You can use gradient background color such as */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+
+    /* Size */
+    height: 50%;
+    width: 100%;
+}
+.title{
+    padding: 20px;
+}
+.title i{
+    font-size: 50px;
+}
+.blue-box{
+    background-color: #71c5d5;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    height: 200px;
+}
+.features-list{
+    line-height: 40px;
+    text-decoration: none;
+    list-style-type: none;  
+}
+.border-bottoms{
+    border-bottom: #39332c 2px solid;    
+}
+.features-tab{
+    color: #39332c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 0.2s;
+}
+.features-tab:hover{  
+    color: #6d4ed2;
+}
+.features-list i{
+    font-size: 23px;
+    color: #bed855;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 30px;    
+    color: #6d4ed2;
+    background-color: #c3b2f8;
+}
+.diagonal-section {
+    /* Used to position the diagonal area */
+    position: relative;
+}
+
+.diagonal-section__diagonal {
+    /* Absolute position */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Create diagonal sides */
+    transform: skewY(-5deg);
+
+    /* Background color */
+    background-color: #6652D9;
+
+    /* Displayed under the main content */
+    z-index: -1;
+}
+.b-hover{
+    transition: 0.3s all;
+}
+.b-hover:hover{
+    box-shadow:  #39332c 10px -10px;
+}
+.header-intro{
+    font-size: 36px;
+    font-weight: bold; 
+    color: #39332c;
+}
+.intro-text{
+    text-align: right;
+}
+.intro-text p{
+    font-size: 18px;
+}
+/*Footer*/
+.footer-icon{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    color: #f0cd56;
+    transition: all 0.3s;
+}
+.footer-icon:hover{
+    color: #6652D9;
+}
+/*contact us*/
+.curved-background__curved2 {
+    /* Background color */
+    background-image: url(image/Brazuca\ -\ Airport.png);
+    background-position: center;
+    background-size: cover;
+
+    /* You can use gradient background color such as */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+
+    /* Size */
+    height: 50%;
+    width: 100%;
+}
+.contact-card{
+    border: #e6e2db dotted 2px;
+}
+.no-mail{
+    color: #71c5d5;
+}
+.contact-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #6652D9;
+}
+.user-input{
+    background-color: #f8f6f2;
+    border: none;
+}
+/* quiz */
+.input-design{
+    background-color: #f8f6f2;
+    border: #f8f6f2 solid 1px;
+}
+.members{
+    text-align: center;
+    align-self: center;
+}
+#button {
+    background-color: #edebd6;
+    font-weight: bolder;
+    width: 150px;
+    border-radius: 20px; 
+    z-index: 100;
+    bottom: 55px;
+    right: 120px;
+    box-shadow: #52514157 3px 3px 3px;
+    color: #525141;
+    position: fixed;
+}
+
+/*About Us
+.cloud-bg{
+    position: absolute;
+    width: 95%;
+    top: 1500px;
+}
+.cloud-m{
+    padding-top: 90px;
+}*/
+.curved-background__curved3 {
+    /* Background color */
+    background-image: url(image/Brazuca\ -\ Catching\ Up.png);
+    background-position: center;
+    background-size: cover;
+
+    /* You can use gradient background color such as */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+
+    /* Size */
+    height: 50%;
+    width: 100%;
+}
+.curved-bg2{
+    background-color: #6652D9;
+    border-top-left-radius: 70% 80%;
+    border-top-right-radius: 70% 80%;
+    height: 180px;
+    width: 95%;
+    padding: 20px;
+}
+.socials{
+    text-align: center;
+    font-size: 25px;
+}
+.bi-discord{
+    cursor: pointer;
+}
+.developers-four{
+    border: #f0cd56 dotted 2px;
+    margin-bottom: 30px;
+}
+.developers-four p{
+    color: #8d887b;
+}
+.our-p{
+    font-size: 18px;
+    line-height: 33px;
+}
+.personal-socials{
+    font-size: 30px;
+    color: #6652D9;
+    transition: all 0.3s;
+}
+.personal-socials:hover{
+    color: #f0cd56;
+}
+/*Settings*/
+.language-bg{
+    background-color: #f5f4ee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.language-bg img{
+    border-radius: 3px;
+}
+.form-check-input{
+    margin-right: 5px;
+}
+/*Mail*/
+.mail-card{
+    border: #e6e2db dotted 2px;
+    background-color: #fcfcfb;
+}
+.mail-input{
+    border: none;
+    background-color: transparent;
+}
+.form-control-transparent{
+    background-color: transparent;
+    border: none;
+}
+.mail-attach{
+    color: #8d887b;
+    transition: all 0.3s;
+    border-radius: 10px;
+
+    text-align: center;
+}
+.mail-attach:hover{
+    color: #6d4ed2;
+    background-color: #c3b2f8;
+}
+/*log in sign up*/
+.btn-google{
+    background-color: #e2f7fb;
+    color: #73c7d8;
+    transition: all 0.3s;
+}
+.btn-google:hover{
+    background-color:#73c7d8 ;
+    color: #e2f7fb;
+}
+@media screen and (max-width: 768px) {
+    .right-s{
+        margin-top: 30px;
+    }
+}
